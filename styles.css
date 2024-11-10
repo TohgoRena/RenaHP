@@ -47,10 +47,11 @@ header {
 .site-logo {
     display: flex;
     align-items: center;
+    margin-right: auto; /* 左寄せ */
 }
 
 .logo {
-    width: 40px; /* ロゴの幅を調整 */
+    width: 60px; /* ロゴの幅を少し大きく調整 */
     height: auto;
     margin-right: 0.5rem;
 }
