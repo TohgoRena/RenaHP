@@ -7,6 +7,18 @@ body {
     background: #000;
 }
 
+/* 背景音楽 */
+audio {
+    display: none; /* プレーヤーを非表示にする */
+}
+
+/* トップ画像 */
+.top-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* ヘッダー */
 header {
     background-color: #000; /* 背景色を黒に設定 */
@@ -42,7 +54,7 @@ header {
 }
 
 .site-name {
-    font-size: 1.5rem;
+    font-size: 2rem; /* フォントサイズを大きく */
     font-weight: bold;
     color: #FFD700;
     text-transform: uppercase;
