@@ -9,46 +9,57 @@ body {
 
 /* ヘッダー */
 header {
-    background: url('GZUVvmwasAADnOk.jpg') no-repeat center center/cover;
-    text-align: left;
+    background-color: #000; /* 背景色を黒に設定 */
+    color: white;
     padding: 1rem 2rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 .header-container {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .logo {
-    width: 80px; /* ロゴの幅を調整 */
+    width: 50px; /* ロゴの幅を調整 */
     height: auto;
     margin-right: 1rem;
 }
 
-.header-content {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-}
-
-header h1 {
-    font-size: 2rem;
-    font-weight: bold;
+nav ul {
+    list-style: none;
     margin: 0;
-    color: #FFD700;
-    text-transform: uppercase;
+    padding: 0;
+    display: flex;
 }
 
-header p {
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
     font-size: 1rem;
-    margin: 0.5rem 0 0;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* ホバー時のリンク色 */
 }
 
 /* メインセクション */
 main {
+    padding-top: 80px; /* ヘッダーの固定分のスペースを確保 */
+    margin: 0;
     padding: 2rem;
 }
 
