@@ -12,13 +12,6 @@ audio {
     display: none; /* プレーヤーを非表示にする */
 }
 
-/* トップ画像 */
-.top-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
 /* ヘッダー */
 header {
     background-color: #000; /* 背景色を黒に設定 */
@@ -88,10 +81,16 @@ nav ul li a:hover {
     color: #FFD700; /* ホバー時のリンク色 */
 }
 
+/* トップ画像 */
+.top-image img {
+    width: 100%;
+    height: auto; /* 高さを自動調整 */
+    margin-top: 80px; /* ヘッダー分のスペースを確保 */
+    display: block;
+}
+
 /* メインセクション */
 main {
-    padding-top: 120px; /* ヘッダーの固定分のスペースを確保 */
-    margin: 0;
     padding: 2rem;
 }
 
