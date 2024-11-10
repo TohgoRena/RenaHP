@@ -10,32 +10,32 @@ body {
 /* ヘッダー */
 header {
     background: url('GZUVvmwasAADnOk.jpg') no-repeat center center/cover;
-    text-align: center;
-    padding: 6rem 1rem 4rem;
-    position: relative;
+    text-align: left;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
     color: white;
 }
 
-.logo-container {
-    text-align: center;
-    margin-bottom: 1rem;
+.header-container {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
-    width: 150px;
+    width: 80px; /* ロゴの幅を調整 */
     height: auto;
-    display: inline-block;
+    margin-right: 1rem;
 }
 
 .header-content {
     background: rgba(0, 0, 0, 0.6);
-    padding: 1.5rem;
+    padding: 0.5rem 1rem;
     border-radius: 8px;
-    display: inline-block;
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     margin: 0;
     color: #FFD700;
@@ -43,7 +43,7 @@ header h1 {
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 0.5rem 0 0;
 }
 
