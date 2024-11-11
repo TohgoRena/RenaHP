@@ -81,6 +81,27 @@ nav ul li a:hover {
     color: #FFD700; /* ホバー時のリンク色 */
 }
 
+/* 音楽ボタン */
+#music-toggle {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.music-off {
+    background-color: #555;
+    color: white;
+}
+
+.music-on {
+    background-color: #FFD700;
+    color: black;
+}
+
 /* トップ画像 */
 .top-image img {
     width: 100%;
